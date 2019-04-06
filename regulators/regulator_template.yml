@@ -1,0 +1,59 @@
+# Regulator template
+
+# All units must respect the following units:
+# Voltages are in Volts (V)
+# Currents are in Amps (A)
+# Power is in Watts (W)
+# Temperatures are in degree Celcius (C)
+# Dimensions are in mm
+
+part_number: ""
+description: ""
+manufacturer: ""
+
+type: "" # "linear" or "switching"
+
+# Electrical caracteristics
+quiescent_current: 0
+input:
+  voltage:
+    min: 0
+    max: 0
+  current:
+    min: 0
+    max: 0
+output:
+  voltage:
+    fixed: false
+    nominal: 0
+    min: 0
+    max: 0
+  current:
+    min: 0
+    max: 0
+# Efficiency Models <<
+
+# Thermal
+power:
+  max: 0
+temperature:
+  min: 0
+  max: 0
+
+# Physical
+packages:
+  - name: ""
+    smd: false
+    height: 0
+
+# Additional data
+costs:
+  - unit: ""
+    value: 0
+    symbol: ""
+datasheets:
+  - ""
+author: ""
+date: ""
+keywords:
+  - ""

@@ -1,0 +1,51 @@
+# LM317 linear adjustable regulator
+
+part_number: "LM317T"
+description: "Linear Voltage Regulator IC Positive Adjustable 1 Output 1.5A TO-220AB"
+manufacturer: "STMicroelectronics"
+
+type: "linear"
+
+# Electrical caracteristics
+quiescent_current: 1e-8
+input:
+  voltage:
+    dropout: 2.5
+    min: 0
+    max: 40
+output:
+  voltage:
+    fixed: false
+    min: 1.25
+    max: 37
+  current:
+    min: 0.01
+    max: 1.5
+# Efficiency models <<
+# Noise models <<
+
+# Thermal
+temperature:
+  min: 0
+  max: 125
+
+# Physical
+packages:
+  - name: "D2PAK_ASE"
+    smd: true
+    height: 4.56
+
+# Additional data
+costs:
+  - unit: "CAD"
+    value: 0.99
+    symbol: "$CA"
+datasheets:
+  - "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf"
+author: "Edouard Denommee"
+date: "2019-04-06"
+keywords:
+  - "smd"
+  - "example"
+  - "linear"
+  - "adjustable"
