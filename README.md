@@ -1,2 +1,2 @@
 # powertree-optimizer
-UI providing optimization for powertrees in electrical engineering
+Application providing optimization for powertrees in electrical engineering
